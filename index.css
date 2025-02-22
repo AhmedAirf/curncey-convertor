@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+.header img {
+  max-width: 100px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.arr {
+  width: 3em;
+}
+
+.inp {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+}
+
+.flag {
+  width: 32px;
+  height: 32px;
+}
+
+.convert button {
+  width: 100%;
+  max-width: 200px;
+}
+
+.amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .header h1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header img {
+    margin-top: 10px;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .d-flex.flex-md-row {
+    flex-direction: column;
+  }
+}
